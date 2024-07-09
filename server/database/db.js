@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 export const Connection = async(username,password)=>{
 
-    // const URL = mongodb+srv://arpitagaur93:arpita@flipkart.4iqqmma.mongodb.net/?retryWrites=true&w=majority&appName=Flipkart;
+    
 
 
     const URL = `mongodb+srv://${username}:${password}@flipkart.4iqqmma.mongodb.net/?retryWrites=true&w=majority&appName=Flipkart` ;
